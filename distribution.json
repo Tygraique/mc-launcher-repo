@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "servers": [
+    {
+      "id": "mon-serveur",
+      "name": "Le Serveur des Amis",
+      "address": "IP_DE_TON_SERVEUR:25565",
+      "modules": [
+        {
+          "id": "forge-1.20.1",
+          "name": "Forge 1.20.1",
+          "type": "Library",
+          "artifact": {
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-installer.jar",
+            "size": 7123456
+          }
+        },
+        {
+          "id": "mon-mod-1",
+          "name": "Nom Du Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "url": "https://ton-pseudo.github.io/mc-launcher-repo/mods/NOM_DU_MOD.jar",
+            "size": 1000000
+          }
+        }
+      ]
+    }
+  ]
+}
