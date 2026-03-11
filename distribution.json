@@ -1,10 +1,11 @@
 {
+ {
   "version": "1.0.0",
   "servers": [
     {
       "id": "mon-serveur",
       "name": "Le Serveur des Amis",
-      "address": "IP_DE_TON_SERVEUR:25565",
+      "address": "localhost:25565",
       "modules": [
         {
           "id": "forge-1.20.1",
@@ -16,11 +17,11 @@
           }
         },
         {
-          "id": "mon-mod-1",
-          "name": "Nom Du Mod",
+          "id": "mon-mod",
+          "name": "Mon Premier Mod",
           "type": "ForgeMod",
           "artifact": {
-            "url": "https://Tygraique.github.io/mc-launcher-repo/mods/jei-1.20.1-forge-15.20.0.129.jar",
+            "url": "https://tygraique.github.io/mc-launcher-repo/mods/METTRE_LE_NOM_EXACT_ICI.jar",
             "size": 1000000
           }
         }
